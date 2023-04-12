@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DemoFilter/DemoFilter.iml" filepath="$PROJECT_DIR$/DemoFilter/DemoFilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoHTML/DemoHTML.iml" filepath="$PROJECT_DIR$/DemoHTML/DemoHTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoJavaScript/DemoJavaScript.iml" filepath="$PROJECT_DIR$/DemoJavaScript/DemoJavaScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoMaven/DemoMaven.iml" filepath="$PROJECT_DIR$/DemoMaven/DemoMaven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoWeb/DemoWeb.iml" filepath="$PROJECT_DIR$/DemoWeb/DemoWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MySQLDB/MySQLDB.iml" filepath="$PROJECT_DIR$/MySQLDB/MySQLDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SuperMarket/SuperMarket.iml" filepath="$PROJECT_DIR$/SuperMarket/SuperMarket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common_dao/common_dao.iml" filepath="$PROJECT_DIR$/common_dao/common_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_demo/mybatis_demo.iml" filepath="$PROJECT_DIR$/mybatis_demo/mybatis_demo.iml" />
+    </modules>
+  </component>
+</project>

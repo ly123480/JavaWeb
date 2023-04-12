@@ -1,0 +1,6 @@
+# Project exclude paths
+/DemoMaven/target/
+/mybatis_demo/target/
+/MySQLDB/target/
+/out/
+/SuperMarket/target/

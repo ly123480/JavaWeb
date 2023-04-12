@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxau.mapper.RestockMapper">
+<!--    <resultMap id="restockMapper" type="com.jxau.entity.Restock">-->
+<!--        <result column="goods_id" property="goodsId"></result>-->
+<!--        <result column="goods_name" property="goodsName"></result>-->
+<!--        <result column="supplier_id" property="supplierId"></result>-->
+<!--        <result column="trade_date" property="tradeDate"></result>-->
+<!--    </resultMap>-->
+
+<!--    <select id="findTotalCount" resultType="java.lang.Integer">-->
+<!--        select count(*) from restock-->
+<!--        <where>-->
+<!--            <if test="condition !='' and condition != null">-->
+<!--                and name like concat('%',#{condition},'%')-->
+<!--            </if>-->
+<!--        </where>-->
+<!--    </select>-->
+<!--    <select id="findByPage" resultType="com.jxau.entity.Restock">-->
+<!--        select * from restock-->
+<!--        <where>-->
+<!--            <if test="condition !='' and condition != null">-->
+<!--                and name like concat('%',#{condition},'%')-->
+<!--            </if>-->
+<!--        </where>-->
+<!--        limit #{start},#{rows}-->
+<!--    </select>-->
+    <select id="findTotalCount" resultType="java.lang.Integer">
+        select count(*) from restock
+        <where>
+            <if test="condition !='' and condition != null">
+                and goodsname like concat('%',#{condition},'%')
+            </if>
+            <if test="condition2 !='' and condition2 != null">
+                and supplierid like concat('%',#{condition2},'%')
+            </if>
+        </where>
+    </select>
+    <select id="findByPage" resultType="com.jxau.entity.Restock">
+        select * from restock
+        <where>
+            <if test="condition !='' and condition != null">
+                and goodsname like concat('%',#{condition},'%')
+            </if>
+            <if test="condition2 !='' and condition2 != null">
+                and supplierid like concat('%',#{condition2},'%')
+            </if>
+
+        </where>
+        limit #{start},#{rows}
+    </select>
+</mapper>
