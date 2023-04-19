@@ -13,7 +13,7 @@ public class JedisTest {
     @BeforeEach
     void setUp(){
         //1. 建立连接
-        jedis = new Jedis("192.168.157.128",6379);
+        jedis = new Jedis("192.168.157.130",6379);
         //2. 设置密码
         jedis.auth("123456");
         //3.选择库

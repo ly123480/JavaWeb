@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/SuperMarket/pom.xml" />
         <option value="$PROJECT_DIR$/MySQLDB/pom.xml" />
         <option value="$PROJECT_DIR$/Jedis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDataRedisDemo/pom.xml" />
       </list>
     </option>
   </component>
