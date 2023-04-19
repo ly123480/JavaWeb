@@ -5,6 +5,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import redis.clients.jedis.Jedis;
 
+import java.util.Map;
+
 public class JedisTest {
     private Jedis jedis;
 
@@ -30,6 +32,17 @@ public class JedisTest {
         //获取数据
         String name = jedis.get("name");
         System.out.println(name);
+    }
+
+    @Test
+    void testHash(){
+        // 插入hash数据
+        jedis.hset("user:1","name","jack");
+        jedis.hset("user:1","age","12");
+
+        //获取
+        Map<String,String> map =  jedis.hgetAll("user:1");
+        System.out.println(map);
     }
 
     @AfterEach
