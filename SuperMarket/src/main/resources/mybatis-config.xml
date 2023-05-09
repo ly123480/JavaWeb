@@ -12,7 +12,7 @@
         <environment id="development">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
                 <!--
                     useSSL:关闭SSL安全连接 性能更高
                     useServerPrepStmts:开启预编译功能

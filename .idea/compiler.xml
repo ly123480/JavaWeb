@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DemoMaven" />
         <module name="MySQLDB" />
-        <module name="Jedis-demo" />
+        <module name="Java" />
         <module name="SuperMarket" />
-        <module name="mybatis_demo" />
         <module name="SpringDataRedisDemo" />
+        <module name="DemoMaven" />
+        <module name="Jedis-demo" />
+        <module name="mybatis_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -3,7 +3,7 @@ package com.jxau.Utils;
 import java.sql.*;
 
 public class DBUtils {
-    static String driver = "com.mysql.jdbc.Driver";
+    static String driver = "com.mysql.cj.jdbc.Driver";
     static String url = "jdbc:mysql://localhost:3306/myschool";
     static String userName = "root";
     static String password = "123456";
